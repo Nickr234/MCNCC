@@ -34,7 +34,7 @@ parser.add_argument('-ris', '--start', type=int, default=-10, help='rotation int
 parser.add_argument('-rie', '--end', type=int, default=11, help='rotation interval end')
 parser.add_argument('-sf', '--scorefile', type=str, default='scores.npy', help='scorefilename')
 parser.add_argument('-cmc', '--cmc', default=False, action='store_true', help='calculate cmc')
-parser.add_argument('-lbl', '--label_table', type=str, default='datasets/fid-300/label_table2.csv', help='add csv files for labels')
+parser.add_argument('-lbl', '--label_table', type=str, default='datasets/FID-300/label_table2.csv', help='add csv files for labels')
 parser.add_argument('-cmcf', '--cmc_file', type=str, default='cmc_file',help='cmc filename')
 
 args = parser.parse_args()
